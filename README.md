@@ -1,2 +1,2 @@
 ﻿# ajay-pathak-react-portfolio
-# website made on reactjs
+# website made using reactjs
