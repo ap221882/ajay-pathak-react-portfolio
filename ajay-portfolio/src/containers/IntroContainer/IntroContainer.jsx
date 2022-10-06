@@ -4,7 +4,7 @@ import Introduction from "./Introduction"
 import styled from "styled-components"
 
 const StyledSocialMediaIcons = styled.div`
-  width: 38px;
+  width: 50px;
 `
 const StyledIntroduction = styled.div`
   color: black;

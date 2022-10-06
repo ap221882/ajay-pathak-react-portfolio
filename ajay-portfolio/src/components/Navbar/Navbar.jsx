@@ -4,9 +4,10 @@ import logo from "../../assets/logo.png"
 
 const StyledNavbar = styled.div`
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 44vw;
   justify-items: start;
   position: sticky;
+  height: 44px;
   top: 0;
   z-index: 3;
   align-items: center;
@@ -23,7 +24,7 @@ const StyledNavbar = styled.div`
       font-size: 15px;
       line-height: 22px;
       li {
-        margin: 0 30px;
+        margin: 0 15px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
     }

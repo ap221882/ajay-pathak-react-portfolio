@@ -9,7 +9,7 @@ height:100vh;
 // grid-template-columns:1fr 1fr;
 position:relative;
 .dark-side{
-  height:100vh;
+  height:calc(100vh - 44px);
   float:left;
   width:55%;
   position:absolute;
