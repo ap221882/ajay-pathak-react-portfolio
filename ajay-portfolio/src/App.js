@@ -1,6 +1,6 @@
-import GlobalStyle from "./globalStyles";
-import Navbar from "./components/Navbar/Navbar";
-import Homepage from "./pages/Homepage/Homepage";
+import GlobalStyle from "./globalStyles"
+import Navbar from "./components/Navbar/Navbar"
+import Homepage from "./pages/Homepage/Homepage"
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Homepage />
     </>
-  );
+  )
 }
-
-export default App;
+//To do - Do use children props here
+export default App
