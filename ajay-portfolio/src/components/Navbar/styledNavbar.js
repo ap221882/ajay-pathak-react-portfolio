@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const StyledNavbar = styled.div`
+  background-color: #ffe8e8;
   display: grid;
   grid-template-columns: auto 44vw;
   justify-items: start;
@@ -10,7 +11,7 @@ export const StyledNavbar = styled.div`
   z-index: 3;
   align-items: center;
   .logo-container {
-    height: 40px;
+    height: 45px;
   }
   .buttons-container {
     justify-self: center;

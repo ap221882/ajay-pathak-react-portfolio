@@ -48,6 +48,15 @@ table {
 img{
     display: block;
     height: 100%;
-}`
+}
+button{
+				border: none;
+				background-color: black;
+				border-radius: 10px;
+				font-size: 18px;
+				font-weight: 900;
+				padding: 11px;
+}
+`
 
 export default GlobalStyle

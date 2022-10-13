@@ -1,7 +1,4 @@
 import React from "react"
-import { CgFacebook, CgInstagram } from "react-icons/cg"
-import { GrLinkedinOption, GrTwitter } from "react-icons/gr"
-import { SiBiolink } from "react-icons/si"
 import styled from "styled-components"
 import {
   BioOption,

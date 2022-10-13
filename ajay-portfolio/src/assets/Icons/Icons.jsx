@@ -3,7 +3,7 @@ import { CgFacebook, CgInstagram } from "react-icons/cg"
 import { GrLinkedinOption, GrTwitter } from "react-icons/gr"
 import { SiBiolink } from "react-icons/si"
 
-const style = { fontSize: "20px", padding: "10px" }
+const style = { fontSize: "30px", padding: "15px" }
 
 export const Facebook = () => {
   return <CgFacebook style={style} />
