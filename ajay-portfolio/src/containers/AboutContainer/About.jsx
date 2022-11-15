@@ -29,10 +29,6 @@ const StyledAboutContainer = styled.div`
     line-height: 20px;
     margin: 1rem 0;
   }
-  button {
-    color: red;
-    text-transform: capitalize;
-  }
   .underline {
     height: 4px;
     width: 70%;
@@ -48,11 +44,10 @@ const About = () => {
       <h1>Why Hire Me?</h1>
       <div className='underline'></div>
       <p className='info'>
-        I am proficient in making full blown web applications and especially
-        frontend part of it. I have made static as well as dynamic web pages
-        using HTML, CSS, Javascript.
+        For my programming projects, I am an active githubber. Feel free to
+        create a pull request for contribution or collaboration to any of my
+        repositories.
       </p>
-      <button>Hire me</button>
     </StyledAboutContainer>
   );
 };
