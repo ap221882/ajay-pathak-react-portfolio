@@ -3,7 +3,6 @@ import styled from "styled-components";
 import IntroContainer from "../../containers/IntroContainer/IntroContainer";
 
 const StyledHomepage = styled.div`
-  border: 2px solid red;
   height: calc(100vh - 44px);
   position: relative;
   .dark-side {
