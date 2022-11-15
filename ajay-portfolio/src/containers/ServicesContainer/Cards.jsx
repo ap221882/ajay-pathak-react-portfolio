@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBeer } from "react-icons/fa";
+import Card from "./Card";
 
 const CardData = [
   {
@@ -41,7 +42,13 @@ const CardData = [
 ];
 
 const Cards = () => {
-  return <div>Cards</div>;
+  return (
+    <>
+      {CardData.map((oneCardData) => {
+        return <Card oneCardData={oneCardData} />;
+      })}
+    </>
+  );
 };
 
 export default Cards;

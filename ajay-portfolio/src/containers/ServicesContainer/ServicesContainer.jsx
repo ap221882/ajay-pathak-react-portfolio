@@ -13,11 +13,20 @@ const StyledServicesContainer = styled.div`
   }
 `;
 
+const StyledCards = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: white;
+  color: black;
+`;
+
 const ServicesContainer = () => {
   return (
     <StyledServicesContainer>
       <h2 className='service-heading'>Services</h2>
-      <Cards />
+      <StyledCards>
+        <Cards />
+      </StyledCards>
     </StyledServicesContainer>
   );
 };
