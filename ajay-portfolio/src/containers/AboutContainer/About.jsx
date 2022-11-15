@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledIntroductionContainer = styled.div`
+const StyledAboutContainer = styled.div`
   max-width: 380px;
   h2 {
     color: red;
@@ -33,22 +33,28 @@ const StyledIntroductionContainer = styled.div`
     color: red;
     text-transform: capitalize;
   }
+  .underline {
+    height: 4px;
+    width: 70%;
+    background-color: red;
+    margin-bottom: 2rem;
+  }
 `;
 
-const Introduction = () => {
+const About = () => {
   return (
-    <StyledIntroductionContainer>
-      <h2>Hello I'm</h2>
-      <h1>Ajay Pathak</h1>
-      <p className='title'>Frontend developer</p>
+    <StyledAboutContainer>
+      <h2>About me</h2>
+      <h1>Why Hire Me?</h1>
+      <div className='underline'></div>
       <p className='info'>
         I am proficient in making full blown web applications and especially
         frontend part of it. I have made static as well as dynamic web pages
         using HTML, CSS, Javascript.
       </p>
       <button>Hire me</button>
-    </StyledIntroductionContainer>
+    </StyledAboutContainer>
   );
 };
 
-export default Introduction;
+export default About;

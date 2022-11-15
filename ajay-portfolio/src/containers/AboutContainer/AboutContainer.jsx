@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import About from "./About";
 import myphoto from "../../assets/Icons/myimage.jpeg";
 
 const StyledAboutContainer = styled.div`
@@ -10,6 +11,9 @@ const StyledAboutContainer = styled.div`
 const ImageContainer = styled.div`
   height: 50vh;
 `;
+const StyledAbout = styled.div`
+  color: black;
+`;
 
 const AboutContainer = () => {
   return (
@@ -17,6 +21,9 @@ const AboutContainer = () => {
       <ImageContainer>
         <img src={myphoto} alt='' />
       </ImageContainer>
+      <StyledAbout>
+        <About />
+      </StyledAbout>
     </StyledAboutContainer>
   );
 };
