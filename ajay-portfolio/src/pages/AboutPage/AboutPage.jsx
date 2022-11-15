@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import AboutContainer from "../../containers/AboutContainer/AboutContainer";
 
 const StyledAbout = styled.div`
   height: 100vh;
-  background-color: gray;
+  position: relative;
+  /* background-color: gray; */
   .dark-side {
     height: 100vh;
     float: left;
@@ -11,7 +13,7 @@ const StyledAbout = styled.div`
     position: absolute;
     background: black;
     z-index: 1;
-    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
   }
   .light-side {
     width: 50%;
@@ -22,11 +24,23 @@ const StyledAbout = styled.div`
   }
 `;
 
+const StyledAboutContainer = styled.div`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: white;
+  width: 100vw;
+`;
+
 const AboutPage = () => {
   return (
     <StyledAbout>
       <div className='dark-side'></div>
       <div className='light-side'></div>
+      <StyledAboutContainer>
+        <AboutContainer />
+      </StyledAboutContainer>
     </StyledAbout>
   );
 };
