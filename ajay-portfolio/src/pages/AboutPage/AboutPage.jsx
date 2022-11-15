@@ -5,7 +5,6 @@ import AboutContainer from "../../containers/AboutContainer/AboutContainer";
 const StyledAbout = styled.div`
   height: 100vh;
   position: relative;
-  /* background-color: gray; */
   .dark-side {
     height: 100vh;
     float: left;
