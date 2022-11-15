@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import GlobalStyle from "./globalStyles";
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/Homepage";
+import AboutPage from "./pages/AboutPage/AboutPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       <GlobalStyle />
       <Navbar />
       <Homepage />
+      <AboutPage />
     </App>
   </React.StrictMode>
 );

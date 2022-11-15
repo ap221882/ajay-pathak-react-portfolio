@@ -1,10 +1,10 @@
-import React from "react"
-import styled from "styled-components"
-import IntroContainer from "../../containers/IntroContainer/IntroContainer"
+import React from "react";
+import styled from "styled-components";
+import IntroContainer from "../../containers/IntroContainer/IntroContainer";
 
 const StyledHomepage = styled.div`
   border: 2px solid red;
-  height: 100vh;
+  height: calc(100vh - 44px);
   position: relative;
   .dark-side {
     height: calc(100vh - 44px);
@@ -17,14 +17,13 @@ const StyledHomepage = styled.div`
     clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
   }
   .light-side {
-    height: 100vh;
     width: 50%;
     left: 50%;
     float: right;
     position: absolute;
     background: white;
   }
-`
+`;
 
 const StyledIntroContainer = styled.div`
   position: absolute;
@@ -33,7 +32,7 @@ const StyledIntroContainer = styled.div`
   z-index: 2;
   color: white;
   width: 100vw;
-`
+`;
 
 const Homepage = () => {
   return (
@@ -44,7 +43,7 @@ const Homepage = () => {
         <IntroContainer />
       </StyledIntroContainer>
     </StyledHomepage>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;
