@@ -1,10 +1,6 @@
 import React from "react";
 import { FaBeer } from "react-icons/fa";
 
-const ICONNAMES = {
-  FaBeer: "FaBeer",
-};
-
 const ICONS = {
   FaBeer,
 };
@@ -13,9 +9,9 @@ const Card = ({ oneCardData }) => {
   const IconComponent = ICONS[oneCardData.icon];
 
   return (
-    <section key={oneCardData.id}>
+    <section className='card-container' key={oneCardData.id}>
       <article className='card-icon-container'>
-        <IconComponent />
+        <IconComponent size={38} />
       </article>
       <article className='card-info'>
         <h3>{oneCardData?.title}</h3>

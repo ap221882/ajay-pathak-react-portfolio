@@ -11,12 +11,21 @@ const StyledServicesContainer = styled.div`
     font-size: 30px;
     text-transform: capitalize;
   }
+  .underline {
+    height: 4px;
+    width: 40%;
+    background-color: red;
+    margin: 1rem auto;
+    margin-bottom: 0;
+  }
 `;
 
 const StyledCards = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: white;
+  gap: 1rem;
+  margin: 2rem;
+  margin-bottom: 0;
   color: black;
 `;
 
@@ -24,6 +33,7 @@ const ServicesContainer = () => {
   return (
     <StyledServicesContainer>
       <h2 className='service-heading'>Services</h2>
+      <div className='underline'></div>
       <StyledCards>
         <Cards />
       </StyledCards>
