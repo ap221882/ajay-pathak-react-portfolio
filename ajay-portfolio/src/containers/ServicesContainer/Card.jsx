@@ -1,12 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
+import { FaBeer } from "react-icons/fa";
+
+const ICONNAMES = {
+  FaBeer: "FaBeer",
+};
+
+const ICONS = {
+  FaBeer,
+};
 
 const Card = ({ oneCardData }) => {
-  const icon = oneCardData?.id;
-  // const icon = oneCardData.icon;
-  console.log(icon);
+  const IconComponent = ICONS[oneCardData.icon];
+
   return (
     <section key={oneCardData.id}>
-      <article className='card-icon-container'>{Component(icon)}</article>
+      <article className='card-icon-container'>
+        <IconComponent />
+      </article>
       <article className='card-info'>
         <h3>{oneCardData?.title}</h3>
         <p>{oneCardData?.info}</p>
