@@ -45,7 +45,7 @@ const Cards = () => {
   return (
     <>
       {CardData.map((oneCardData) => {
-        return <Card oneCardData={oneCardData} />;
+        return <Card key={oneCardData.id} oneCardData={oneCardData} />;
       })}
     </>
   );
