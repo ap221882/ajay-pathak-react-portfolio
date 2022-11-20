@@ -7,7 +7,8 @@ import GlobalStyle from "./globalStyles";
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/Homepage";
 import AboutPage from "./pages/AboutPage/AboutPage";
-import Services from "./pages/Services/Services";
+import Services from "./pages/ServicesPage/Services";
+import WorkPage from "./pages/WorkPage/WorkPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Homepage />
       <AboutPage />
       <Services />
+      <WorkPage />
     </App>
   </React.StrictMode>
 );

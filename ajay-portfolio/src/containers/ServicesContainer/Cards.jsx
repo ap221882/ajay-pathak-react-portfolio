@@ -41,8 +41,8 @@ const Cards = () => {
     <>
       {CardData.map((oneCardData) => {
         return (
-          <StyledCard>
-            <Card key={oneCardData.id} oneCardData={oneCardData} />
+          <StyledCard key={oneCardData.id}>
+            <Card oneCardData={oneCardData} />
           </StyledCard>
         );
       })}
