@@ -18,10 +18,13 @@ const StyledExperienceHeading = styled.div`
 
 const WorkContainer = () => {
   return (
-    <StyledExperienceHeading>
-      <h2 className='service-heading'>Services</h2>
-      <div className='underline'></div>
-    </StyledExperienceHeading>
+    <>
+      <StyledExperienceHeading>
+        <h2 className='service-heading'>Services</h2>
+        <div className='underline'></div>
+      </StyledExperienceHeading>
+      <div className='separator'></div>
+    </>
   );
 };
 

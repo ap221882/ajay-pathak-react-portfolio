@@ -8,6 +8,13 @@ const StyledWorkContainer = styled.div`
   color: white;
   padding-top: 8rem;
   text-align: center;
+  .separator {
+    height: 100vh;
+    width: 10px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
 `;
 
 const WorkPage = () => {
