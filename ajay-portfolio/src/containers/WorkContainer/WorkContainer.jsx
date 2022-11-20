@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ExperienceContainer from "./ExperienceContainer";
 
 const StyledExperienceHeading = styled.div`
   .service-heading {
@@ -24,6 +25,7 @@ const WorkContainer = () => {
         <div className='underline'></div>
       </StyledExperienceHeading>
       <div className='separator'></div>
+      <ExperienceContainer />
     </>
   );
 };
