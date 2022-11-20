@@ -14,6 +14,7 @@ const StyledWorkContainer = styled.div`
     background-color: red;
     margin: 0 auto;
     margin-top: 4rem;
+    position: relative;
   }
 `;
 

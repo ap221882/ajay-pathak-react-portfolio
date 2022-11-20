@@ -21,11 +21,11 @@ export const ExperienceData = [
 
 const ExperienceContainer = () => {
   return (
-    <>
+    <div className='experience-container'>
       {ExperienceData.map((singleExperience) => {
         return <SingleExperience singleExperience={singleExperience} />;
       })}
-    </>
+    </div>
   );
 };
 

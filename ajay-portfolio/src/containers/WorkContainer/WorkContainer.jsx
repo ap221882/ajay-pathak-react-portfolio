@@ -15,6 +15,9 @@ const StyledExperienceHeading = styled.div`
     margin: 1rem auto;
     margin-bottom: 0;
   }
+  /* .experience-container:nth-child(odd) {
+    top: 5rem;
+  } */
 `;
 
 const WorkContainer = () => {
@@ -24,8 +27,9 @@ const WorkContainer = () => {
         <h2 className='service-heading'>Services</h2>
         <div className='underline'></div>
       </StyledExperienceHeading>
-      <div className='separator'></div>
-      <ExperienceContainer />
+      <div className='separator'>
+        <ExperienceContainer />
+      </div>
     </>
   );
 };
