@@ -8,19 +8,20 @@ const StyledSingleExperience = styled.div`
   width: 450px;
   position: absolute;
   /* right: 10px; */
-  &:nth-child(odd) {
-    top: 360px;
-    left: -450px;
+  &:nth-child(n) {
+    top: ${({ id }) => 360 * (id - 1)}px;
   }
   &:nth-child(even) {
-    /* top: 8rem; */
+    right: 10px;
+  }
+  &:nth-child(odd) {
     left: 10px;
   }
 `;
 
 const SingleExperience = ({ singleExperience }) => {
   return (
-    <StyledSingleExperience>
+    <StyledSingleExperience id={singleExperience.id}>
       <div className='info-container'>
         <h1>{singleExperience.title}</h1>
         <p>{singleExperience.info}</p>

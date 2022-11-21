@@ -9,7 +9,7 @@ const StyledWorkContainer = styled.div`
   padding-top: 8rem;
   text-align: center;
   .separator {
-    height: 100vh;
+    height: 150vh;
     width: 10px;
     background-color: red;
     margin: 0 auto;
