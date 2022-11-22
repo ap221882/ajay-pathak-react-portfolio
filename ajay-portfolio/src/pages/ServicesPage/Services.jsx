@@ -5,6 +5,8 @@ import ServicesContainer from "../../containers/ServicesContainer/ServicesContai
 const StyledServices = styled.div`
   height: 100vh;
   background-color: black;
+  display: grid;
+  place-items: center;
   color: white;
 `;
 

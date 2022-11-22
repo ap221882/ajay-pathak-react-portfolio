@@ -9,7 +9,7 @@ const StyledWorkContainer = styled.div`
   padding-top: 8rem;
   text-align: center;
   .separator {
-    height: 150vh;
+    height: 100%;
     width: 10px;
     background-color: red;
     margin: 0 auto;
@@ -21,6 +21,11 @@ const StyledWorkContainer = styled.div`
   .experience-heading {
     max-width: 80vw;
     margin: 0 auto;
+  }
+  .experience-container {
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 6rem;
   }
 `;
 

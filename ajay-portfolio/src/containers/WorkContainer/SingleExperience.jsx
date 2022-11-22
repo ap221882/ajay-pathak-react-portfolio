@@ -5,7 +5,13 @@ const StyledSingleExperience = styled.div`
   min-height: 240px;
   background-color: white;
   color: black;
-  width: 450px;
+  width: 50%;
+  &:nth-child(odd) {
+    transform: translateX(calc(100% + 25px));
+  }
+  &:nth-child(even) {
+    transform: translateX(calc(-25px));
+  }
   /* position: absolute; */
   /* right: 10px; */
   /* &:nth-child(n) {
