@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Cards from "./Cards";
 
 const StyledServicesContainer = styled.div`
-  padding-top: 8rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   .service-heading {

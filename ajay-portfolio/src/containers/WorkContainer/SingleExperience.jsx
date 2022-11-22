@@ -6,9 +6,9 @@ const StyledSingleExperience = styled.div`
   background-color: white;
   color: black;
   width: 450px;
-  position: absolute;
+  /* position: absolute; */
   /* right: 10px; */
-  &:nth-child(n) {
+  /* &:nth-child(n) {
     top: ${({ id }) => 360 * (id - 1)}px;
   }
   &:nth-child(even) {
@@ -16,7 +16,7 @@ const StyledSingleExperience = styled.div`
   }
   &:nth-child(odd) {
     left: 10px;
-  }
+  } */
 `;
 
 const SingleExperience = ({ singleExperience }) => {

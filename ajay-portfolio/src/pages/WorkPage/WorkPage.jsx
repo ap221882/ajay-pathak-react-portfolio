@@ -14,7 +14,13 @@ const StyledWorkContainer = styled.div`
     background-color: red;
     margin: 0 auto;
     margin-top: 4rem;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .experience-heading {
+    max-width: 80vw;
+    margin: 0 auto;
   }
 `;
 
