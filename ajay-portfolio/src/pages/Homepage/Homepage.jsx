@@ -3,10 +3,10 @@ import styled from "styled-components";
 import IntroContainer from "../../containers/IntroContainer/IntroContainer";
 
 const StyledHomepage = styled.div`
-  height: calc(100vh - 44px);
+  height: calc(100vh - 60px);
   position: relative;
   .dark-side {
-    height: calc(100vh - 44px);
+    height: calc(100vh - 60px);
     float: left;
     width: 55%;
     position: absolute;

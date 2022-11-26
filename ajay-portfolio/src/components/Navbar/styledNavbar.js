@@ -1,17 +1,18 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const StyledNavbar = styled.div`
-  background-color: #ffe8e8;
+  background-color: #f2f2f2;
   display: grid;
   grid-template-columns: auto 44vw;
   justify-items: start;
   position: sticky;
-  height: 44px;
+  height: 60px;
   top: 0;
   z-index: 3;
   align-items: center;
   .logo-container {
     height: 45px;
+    padding: 0 8px;
   }
   .buttons-container {
     justify-self: center;
@@ -28,4 +29,4 @@ export const StyledNavbar = styled.div`
       }
     }
   }
-`
+`;
