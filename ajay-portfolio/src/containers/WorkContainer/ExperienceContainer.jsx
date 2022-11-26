@@ -23,7 +23,12 @@ const ExperienceContainer = () => {
   return (
     <div className='experience-container'>
       {ExperienceData.map((singleExperience) => {
-        return <SingleExperience singleExperience={singleExperience} />;
+        return (
+          <SingleExperience
+            key={singleExperience.id}
+            singleExperience={singleExperience}
+          />
+        );
       })}
     </div>
   );

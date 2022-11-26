@@ -32,6 +32,7 @@ const StyledIntroductionContainer = styled.div`
   button {
     color: red;
     text-transform: capitalize;
+    padding: 10px 30px;
   }
 `;
 

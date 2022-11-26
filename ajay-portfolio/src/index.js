@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import Services from "./pages/ServicesPage/Services";
 import WorkPage from "./pages/WorkPage/WorkPage";
+import Footer from "./pages/Footer/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,7 @@ root.render(
       <AboutPage />
       <Services />
       <WorkPage />
+      <Footer />
     </App>
   </React.StrictMode>
 );

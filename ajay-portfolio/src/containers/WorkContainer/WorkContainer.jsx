@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ExperienceContainer from "./ExperienceContainer";
+import HireMeContainer from "./HireMeContainer";
 
 const StyledExperienceHeading = styled.div`
   .experience-heading {
@@ -23,12 +24,6 @@ const StyledExperienceHeading = styled.div`
     margin: 1rem auto;
     margin-bottom: 0;
   }
-  /* .experience-container {
-    max-width: 80vw;
-  } */
-  /* .experience-container:nth-child(odd) {
-    top: 5rem;
-  } */
 `;
 
 const WorkContainer = () => {
@@ -40,6 +35,7 @@ const WorkContainer = () => {
       </StyledExperienceHeading>
       <div className='separator'></div>
       <ExperienceContainer />
+      <HireMeContainer />
     </>
   );
 };
