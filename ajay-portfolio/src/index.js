@@ -1,17 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+
 //import local modules
+import App from "./App";
 import GlobalStyle from "./globalStyles";
-import Navbar from "./components/Navbar/Navbar";
-import Homepage from "./pages/Homepage/Homepage";
-import AboutPage from "./pages/AboutPage/AboutPage";
-import Services from "./pages/ServicesPage/Services";
-import WorkPage from "./pages/WorkPage/WorkPage";
-import Footer from "./pages/Footer/Footer";
+import {
+  Navbar,
+  Homepage,
+  AboutPage,
+  Services,
+  WorkPage,
+  Footer,
+} from "./pages";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
     <App>
